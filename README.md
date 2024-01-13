@@ -1,1 +1,1 @@
-# Counter-v1
+# Counter-v1 (MVP)
