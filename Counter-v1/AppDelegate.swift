@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  Counter-v1
-//
-//  Created by Daniil Yushkevich on 13.01.24.
-//
-
 import UIKit
 
 @main
