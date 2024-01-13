@@ -15,27 +15,10 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hGv-sg-GgO">
-                                <rect key="frame" x="159" y="408.66666666666669" width="75" height="35"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
-                                <connections>
-                                    <action selector="nextButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NcM-xk-uCu"/>
-                                </connections>
-                            </button>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="hGv-sg-GgO" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="IVq-2r-2Fv"/>
-                            <constraint firstItem="hGv-sg-GgO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="KaT-jv-GlY"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Pst-ZS-c4L"/>
-                    <connections>
-                        <outlet property="nextButton" destination="hGv-sg-GgO" id="Xrm-t3-grD"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
